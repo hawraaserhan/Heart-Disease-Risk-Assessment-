@@ -2,6 +2,12 @@
 
 ## Overview
 This project aims to predict heart disease using an **ensemble machine learning model** while providing model interpretability through **LIME** and **SHAP** explanations. The dataset used is the **Heart Disease UCI dataset**, which includes various clinical attributes used to diagnose the presence of heart disease.
+## Installation
+
+Make sure you have **Python 3** installed. Then, install the required libraries:
+
+```bash
+pip install numpy pandas matplotlib seaborn scikit-learn lime shap
 
 Our pipeline follows these key steps:
 - **Data preprocessing**: Handling missing values, feature scaling, and dataset splitting.
