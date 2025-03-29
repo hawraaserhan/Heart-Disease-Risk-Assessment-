@@ -68,7 +68,7 @@ The SHAP force plot visualizes how each feature influences the final decision, m
 
 ---
 ## Model Testing
-I test the model on 2 unseen rows without target where the nodel predict them correctly and the prediction were saved in the predictions_testingheart.csv
+I test the model on 2 unseen rows without target where the model predict them correctly and the prediction was saved in the predictions_testingheart.csv
 
 ## Conclusion
 This project successfully demonstrates a **highly accurate ensemble model** for heart disease prediction. More importantly, it showcases **explainability techniques** to make the model’s decisions **transparent and interpretable**, which is essential for **medical applications** where trust in AI models is crucial.
