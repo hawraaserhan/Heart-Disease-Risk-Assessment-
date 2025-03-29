@@ -6,7 +6,7 @@ This project aims to predict heart disease using an **ensemble machine learning 
 
 Make sure you have **Python 3** installed. Then, install the required libraries:
 
-```bash
+```
 pip install numpy pandas matplotlib seaborn scikit-learn lime shap
 
 Our pipeline follows these key steps:
