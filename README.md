@@ -1,5 +1,4 @@
 # Heart-Disease-Risk-Assessment-
-# Heart Disease Prediction and Explainability
 
 ## Overview
 This project aims to predict heart disease using an **ensemble machine learning model** while providing model interpretability through **LIME** and **SHAP** explanations. The dataset used is the **Heart Disease UCI dataset**, which includes various clinical attributes used to diagnose the presence of heart disease.
@@ -63,9 +62,8 @@ SHAP provides a **global explanation** of the model's behavior, showing the cont
 The SHAP force plot visualizes how each feature influences the final decision, making the model's predictions more transparent.
 
 ---
-#Model Testing On unseen data 
-I extract 2 rows from the provided data then i test the model on this data without the target the model predict the 2 rows coorectly where the prediction 
-and the probaility were saved in predictions_testingheart.csv 
+## Model Testing
+I test the model on 2 unseen rows without target where the nodel predict them correctly and the prediction were saved in the predictions_testingheart.csv
 ---
 ## Conclusion
 This project successfully demonstrates a **highly accurate ensemble model** for heart disease prediction. More importantly, it showcases **explainability techniques** to make the model’s decisions **transparent and interpretable**, which is essential for **medical applications** where trust in AI models is crucial.
