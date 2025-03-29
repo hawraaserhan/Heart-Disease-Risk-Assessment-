@@ -63,7 +63,7 @@ SHAP provides a **global explanation** of the model's behavior, showing the cont
 The SHAP force plot visualizes how each feature influences the final decision, making the model's predictions more transparent.
 
 ---
-##Model Testing On unseen data 
+#Model Testing On unseen data 
 I extract 2 rows from the provided data then i test the model on this data without the target the model predict the 2 rows coorectly where the prediction 
 and the probaility were saved in predictions_testingheart.csv 
 ---
